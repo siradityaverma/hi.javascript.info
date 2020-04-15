@@ -13,20 +13,23 @@
 
 इस पहलू में, जावास्क्रिप्ट, [जावा](https://en.wikipedia.org/wiki/Java_(programming_language)) नामक एक अन्य भाषा से बहुत अलग है।
 
-```smart header="Why is it called <u>Java</u>Script?"
-When JavaScript was created, it initially had another name: "LiveScript". But Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
+```smart header="हम इससे <u>जावा</u>स्क्रिप्ट क्यों बुलाते है?"
+जब जावास्क्रिप्ट बनाया गया था तो उसे पहले एक दूसरा नाम दिया गया था: "लाइवस्क्रिप्ट"। पर उस वक़्त जावा बहुत लोकप्रिय हुआ करता था, तोह लोगो ने निर्णय लिया कि इस नए लैंग्वेज को अगर जावा का छोटा भाई का पद मिले तोह इससे काफी मद्दद मिलेगी।
 
-But as it evolved, JavaScript became a fully independent language with its own specification called [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), and now it has no relation to Java at all.
+पर जैसे ही ये विकसित होने लगा, जावास्क्रिप्ट एक पूरी तरह से स्वतंत्र भाषा बन गया और अपने खुद के विशेष उल्लेख के साथ जिसको [एकमस्क्रीप्ट](http://en.wikipedia.org/wiki/ECMAScript) बोलते है, और अब इसका जावा से कोई रिश्ता नहीं है।
 ```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
 
-The browser has an embedded engine sometimes called a "JavaScript virtual machine".
+आज हम जावास्क्रिप्ट को अब ब्राउज़र में भी नहीं पर अब एक सर्वर या फिर कोई भी डिवाइस में भी चला सकते है जिसमे अगर एक स्पेशल प्रोग्राम हो जिससे हम [जावास्क्रिप्ट इंजन](https://en.wikipedia.org/wiki/JavaScript_engine) बोलते है।
 
-Different engines have different "codenames". For example:
+ब्राउज़र में एक एम्बेडेड इंजन होता है जिसे हम कभी कभार "जावास्क्रिप्ट वर्चुअल मशीन" बुलाते है।
 
-- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- in Chrome and Opera.
-- [SpiderMonkey](https://en.wikipedia.org/wiki/SpiderMonkey) -- in Firefox.
+अलग अलग प्रकार के इंजन के अलग अलग प्रकार के "कोडेनमेंस" है। उदाहरण के लिए:
+
+- [V8](https://en.wikipedia.org/wiki/V8_(JavaScript_engine)) -- क्रोम और ओपेरा में।
+
+- [स्पाइडरमोंकी](https://en.wikipedia.org/wiki/SpiderMonkey) -- फ़ायरफ़ॉक्स में।
+
 - ...There are other codenames like "Trident" and "Chakra" for different versions of IE, "ChakraCore" for Microsoft Edge, "Nitro" and "SquirrelFish" for Safari, etc.
 
 The terms above are good to remember because they are used in developer articles on the internet. We'll use them too. For instance, if "a feature X is supported by V8", then it probably works in Chrome and Opera.
